@@ -1,0 +1,12 @@
+meeting_id,task,owner,deadline,has_task,has_owner,has_deadline,is_specific,completeness
+EN2001a,Read classes out of the database,null,null,True,False,False,True,0.3333
+EN2001a,Find abstraction models,null,null,True,False,False,False,0.3333
+EN2001d,Meet after three,null,after three,True,False,True,False,0.6667
+EN2001d,Make sure I have all the display,null,by three,True,False,True,True,0.6667
+EN2001d,Implement ability to add arbitrary numbers of items programmatically,null,null,True,False,False,True,0.3333
+EN2001e,Send link to that paper,null,null,True,False,False,True,0.3333
+EN2003a,Gather people's needs in advance so that he can be there and get it ready for th,null,null,True,False,False,True,0.3333
+EN2004a,"Create a folder called ""Files to be Checked""",null,null,True,False,False,True,0.3333
+EN2004a,Establish a checking-in procedure,null,null,True,False,False,False,0.3333
+EN2004a,Email someone to find out who knows this information,null,null,True,False,False,True,0.3333
+EN2005a,share it on a wiki,null,null,True,False,False,True,0.3333

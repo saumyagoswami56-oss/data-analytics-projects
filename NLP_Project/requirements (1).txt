@@ -1,0 +1,35 @@
+# DeepBrief.AI — Smart Meeting Insights Generator
+# Install: pip install -r requirements.txt
+#
+# Windows users: if torch install is slow, get the right wheel from:
+#   https://pytorch.org/get-started/locally/
+# Mac users: MPS (Apple Silicon GPU) is supported by torch out of the box.
+
+# ─── Speech-to-Text (Groq API — whisper-large-v3, free tier) ─────────────────
+groq>=0.9.0
+
+# ─── Dataset Loading (AMI corpus from HuggingFace) ────────────────────────────
+datasets>=2.18.0
+soundfile>=0.12.1
+librosa>=0.10.1
+
+# ─── HuggingFace Transformers (Stage 4 — Sentiment Analysis) ─────────────────
+transformers>=4.40.0
+torch>=2.2.0
+
+# ─── LLM API — TBD (free tier options under evaluation) ──────────────────────
+# Candidates: Groq (llama3/mixtral), Google Gemini free tier, Ollama (local)
+# Will be added once the team decides. No paid APIs used.
+
+# ─── Dashboard (Stage 5) ──────────────────────────────────────────────────────
+streamlit>=1.33.0
+
+# ─── Evaluation (Stage 6) ─────────────────────────────────────────────────────
+rouge-score>=0.1.2
+jiwer>=3.0.3              # Word Error Rate
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0

@@ -1,0 +1,54 @@
+{
+  "wer": {
+    "avg_raw_wer": 0.4111,
+    "avg_norm_wer": 0.1916,
+    "n_clips": 200,
+    "clips_meeting_target": 137,
+    "wer_reduction": 0.2196,
+    "target_met": true
+  },
+  "rouge": {
+    "avg_rouge1_blended": 0.2492,
+    "avg_rouge1_summary": 0.2359,
+    "avg_rouge1_keypoints": 0.2624,
+    "avg_rouge2_f": 0.0946,
+    "avg_rougeL_f": 0.1929,
+    "avg_kp_coverage": 0.8448,
+    "avg_compression": 0.2431,
+    "meetings_passing": 5,
+    "target_met": true
+  },
+  "action_items": {
+    "total_items": 11,
+    "extraction_rate": 0.6,
+    "owner_rate": 0.0,
+    "deadline_rate": 0.1818,
+    "specificity_rate": 0.7273,
+    "avg_completeness": 0.3939,
+    "target_met": false
+  },
+  "sentiment": {
+    "avg_sentiment_confidence": 0.6642,
+    "avg_emotion_confidence": 0.8458,
+    "avg_label_diversity": 0.8,
+    "avg_emot_diversity": 0.3857,
+    "label_distribution": {
+      "neutral": 9,
+      "negative": 1
+    },
+    "emotion_distribution": {
+      "neutral": 10
+    },
+    "avg_positive": 0.1188,
+    "avg_neutral": 0.6636,
+    "avg_negative": 0.2176
+  },
+  "robustness": {
+    "stage2_success_rate": 1.0,
+    "stage3_success_rate": 1.0,
+    "stage4_success_rate": 1.0,
+    "overall_robustness": 1.0,
+    "total_segments_scored": 159,
+    "total_words_analysed": 2150
+  }
+}

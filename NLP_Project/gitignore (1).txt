@@ -1,0 +1,44 @@
+# ─── Secrets ─────────────────────────────────────────────────────────────────
+.env
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+at3env/
+
+# ─── Data — audio files are large; keep manifest but not raw wav ─────────────
+data/ami_samples/*.wav
+data/ami_samples/*.mp3
+data/ami_samples/*.flac
+# Keep: data/samples_manifest.json (tracked — small, useful for reproducibility)
+
+# ─── Model cache ──────────────────────────────────────────────────────────────
+.cache/
+*.pt
+*.bin
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+# --- Stage 3 additions ---
+.ipynb_checkpoints/
+.virtual_documents/
+data/stage3_output.json
+Untitled*.ipynb

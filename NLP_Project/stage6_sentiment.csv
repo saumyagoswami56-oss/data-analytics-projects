@@ -1,0 +1,11 @@
+meeting_id,total_segments,total_words,sentiment_label,sent_positive,sent_neutral,sent_negative,sent_confidence,dominant_emotion,emot_confidence,label_diversity,emot_diversity
+EN2001a,18,266,neutral,0.0479,0.6471,0.305,0.6471,neutral,0.6375,1.0,0.5714
+EN2001b,19,255,neutral,0.1087,0.7709,0.1205,0.7709,neutral,0.9009,0.6667,0.2857
+EN2001d,17,237,neutral,0.3393,0.6144,0.0463,0.6144,neutral,0.875,0.6667,0.4286
+EN2001e,16,252,neutral,0.0835,0.7034,0.2131,0.7034,neutral,0.788,0.6667,0.1429
+EN2003a,17,219,neutral,0.1446,0.745,0.1104,0.745,neutral,0.9074,0.6667,0.4286
+EN2004a,15,191,neutral,0.1285,0.6601,0.2114,0.6601,neutral,0.7993,1.0,0.5714
+EN2005a,18,243,negative,0.028,0.4829,0.4891,0.4891,neutral,0.7867,0.6667,0.8571
+EN2006a,15,169,neutral,0.0935,0.6933,0.2131,0.6933,neutral,0.9429,1.0,0.1429
+EN2006b,11,141,neutral,0.0902,0.6697,0.2402,0.6697,neutral,0.9209,0.6667,0.1429
+EN2009b,13,177,neutral,0.1239,0.6488,0.2273,0.6488,neutral,0.8996,1.0,0.2857
